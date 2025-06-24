@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmad Pablo – Brotherhood Tribute</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root {
+      --primary-color: #ffffff;
+      --accent-color: #ffcc00;
+      --overlay-dark: rgba(0, 0, 0, 0.7);
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: var(--primary-color);
+      background: var(--overlay-dark);
+    }
+
+    body {
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background: var(--overlay-dark);
+      min-height: 100vh;
+      padding-bottom: 40px;
+    }
+
+    header {
+      text-align: center;
+      padding: 120px 20px 60px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: var(--accent-color);
+    }
+
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: var(--accent-color);
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .values {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+      gap: 20px;
+    }
+
+    .value {
+      flex: 1;
+      min-width: 180px;
+    }
+
+    .value i {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: var(--accent-color);
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 280px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .quotes {
+      font-style: italic;
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    .letter {
+      background-color: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-left: 4px solid var(--accent-color);
+      margin-top: 20px;
+    }
+
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .contact input, .contact textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      font-size: 1em;
+    }
+
+    .contact button {
+      background: var(--accent-color);
+      color: #000;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #ccc;
+      font-size: 0.9em;
+    }
+
+    @media(max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .gallery img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <h1>Ahmad Pablo</h1>
+      <p>A tribute of love, brotherhood, and eternal friendship – by Karam</p>
+    </header>
+
+    <section>
+      <h2>Who is Ahmad Pablo?</h2>
+      <p>
+        Ahmad is more than just a brother to me — he is a reflection of loyalty, love, and pure strength.
+        This website is built to honor the bond that we share. Through every challenge and every joy,
+        his presence has been my greatest support. This is my tribute to that unbreakable connection.
+      </p>
+    </section>
+
+    <section>
+      <h2>Values of Brotherhood</h2>
+      <div class="values">
+        <div class="value">
+          <i class="fas fa-heart"></i>
+          <h4>Love</h4>
+          <p>Unconditional, deep, and always there.</p>
+        </div>
+        <div class="value">
+          <i class="fas fa-handshake-angle"></i>
+          <h4>Support</h4>
+          <p>Every step, every moment.</p>
+        </div>
+        <div class="value">
+          <i class="fas fa-infinity"></i>
+          <h4>Loyalty</h4>
+          <p>Forever and unbreakable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Memories Together</h2>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=600&q=80" alt="Brother moment">
+        <img src="https://images.unsplash.com/photo-1530882548122-0596ee66cdfd?auto=format&fit=crop&w=600&q=80" alt="Hiking">
+        <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80" alt="Friends">
+      </div>
+    </section>
+
+    <section class="quotes">
+      <h2>Words That Describe Us</h2>
+      <p>"A brother is a gift to the heart, a friend to the spirit, a golden thread to the meaning of life."</p>
+      <p>"Side by side or miles apart, brothers will always be connected by heart."</p>
+    </section>
+
+    <section>
+      <h2>Message to Ahmad</h2>
+      <div class="letter">
+        <p>
+          Ahmad, you’ve been my strength, my mirror, and my peace. I built this not just as a tribute but as a living symbol of what we have. Every line, every image, every word is filled with the gratitude I carry. I love you always. – Karam
+        </p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Send Your Message</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="4" placeholder="Write your thoughts for Ahmad Pablo..." required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      © 2025 Tribute to Ahmad Pablo – Designed by Karam
+    </footer>
+  </div>
+</body>
+</html>
